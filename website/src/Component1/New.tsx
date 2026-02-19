@@ -5,7 +5,7 @@ return(
     <>
      <div className="main">
         <div className="top">
-            <div className="l-1"></div>
+            <div className="l-1"><h1>Cini</h1></div>
         </div>
         <div className="bottom">
             <div className="r-1">
@@ -13,7 +13,7 @@ return(
                     <div className="left">
                         <input type="search"className="search" />
                     </div>
-                    <div className="right"></div>
+                    <div className="right"><h3>Search</h3></div>
                 </div>
                 <div className="bottom1">
                     <div className="top2">

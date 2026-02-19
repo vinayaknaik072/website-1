@@ -12,18 +12,25 @@
     flex-direction: column;
 }
 .top{
-    flex: 1;
+    flex: 0.5;
     display: flex;
     padding: 60px
 }
 .l-1{
     flex: 1;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: linear-gradient( to right,red,orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .bottom{
     flex: 4;
     display: flex;
     justify-content: center;
+    background-color: rgb(231, 228, 228);
 }
 .r-1{
     position: fixed;
@@ -34,33 +41,47 @@
     flex-direction: column;
     padding: 3px;
     gap: 3px;
+    border: none;
 }
 .top1{
     flex: 1;
     display: flex;
     border-radius: 10px;
-    gap: 5px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    border: none;
 }
 .left{
     flex: 3;
     display: flex;
-      align-items: center;
+    align-items: center;
     justify-content: center;
+    border: none;
 }
 .search{
-    height: 40px;
-    width: 350px;
+    height: 50px;
+    width: 400px;
     border-radius: 10px;
 }
 .right{
     flex: 1;
     display: flex;
+    height: 50px;
+    max-width: 80px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(10, 10, 214);
 }
 .bottom1{
     flex: 3;
     display: flex;
     flex-direction: column;
-    padding: 4px;
+    border-radius: 10px;
+    background-color: white;
 }
 .top2{
     flex: 1;
@@ -75,8 +96,8 @@
 .bottom2{
     flex: 1;
     display: flex;
-    border-radius: 10px;
     flex-direction: column;
+    border: none;
 }
 .b1{
     flex: 1;
@@ -109,4 +130,6 @@
     flex: 1;
     display: flex;
      padding: 5px;
+     border: none;
 }
+     
